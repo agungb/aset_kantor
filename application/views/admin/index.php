@@ -15,18 +15,18 @@
   <div id="wrapper">
     <nav class="navbar navbar-default navbar-cls-top " role="navigation" style="margin-bottom: 0">
       <div class="navbar-header">
-        <a class="navbar-brand" href="<?php echo base_url("admin/hardware"); ?>">Inventaris Aset</a> 
+        <a class="navbar-brand" href="<?php echo base_url("admin/hardware"); ?>">Inventaris Aset</a>
       </div>
       <div style="color: white;
       padding: 15px 50px 5px 50px;
       float: right;
       font-size: 16px;"> <a href="<?php echo base_url("login/logout"); ?>" class="btn btn-danger square-btn-adjust">Logout</a> </div>
-    </nav>   
+    </nav>
     <!-- /. NAV TOP  -->
     <nav class="navbar-default navbar-side" role="navigation">
       <div class="sidebar-collapse">
         <ul class="nav" id="main-menu">
-          
+
           <li  >
             <a  href="<?php echo base_url("admin/hardware"); ?>"><i class="fa fa-table"></i> Tabel Aset</a>
           </li>
@@ -43,7 +43,7 @@
 
       </div>
 
-    </nav>  
+    </nav>
     <!-- /. NAV SIDE  -->
     <div id="page-wrapper" >
       <div id="page-inner">
@@ -68,5 +68,6 @@
   <!-- BOOTSTRAP SCRIPTS -->
   <script src="<?php echo base_url("assets/js/bootstrap.min.js"); ?>"></script>
 
+<!-- Karya agung budidoyo kunjungi saya di github.com/agungb -->
 </body>
 </html>
